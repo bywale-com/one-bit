@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #cc3333;
+}
+
+button {
+    background-color: #222;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#light {
+    width: 100px;
+    height: 100px;
+    background-color: #555;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+
+/* dark mode */
+body.on {
+    background-color: #222;
+}
+
+body.on h1, body.on p {
+    color: #fff;
+} 
+
+#light.on {
+    background-color: #ffcc00;
+    box-shadow: 0 0 40px #ffcc00;
+}
+
